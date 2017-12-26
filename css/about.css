@@ -1,0 +1,40 @@
+.about-main{
+    height: 2000px;
+    
+}
+.about-main h3{
+    position: relative;
+    top: 100px;
+    text-align: center;
+}
+.about-img{
+    position: relative;
+    width: 100%;
+    height: 700px;
+    top: 200px;
+}
+
+.about-img img{
+    width:400px;
+    height: 300px;
+    transform: rotate(-90deg);
+    margin-bottom: 50px;
+    margin-top: 70px;
+    margin-bottom: 100px;
+}
+.about-img p{
+    padding-left: 30px;
+    line-height: 2;
+    font-size: 1.1em;
+}
+/* .two-text{
+    float: left;
+} */
+.leftimg {
+    float:left; /* Выравнивание по левому краю */
+    margin: 17px; /* Отступы вокруг картинки */
+   }
+   .rightimg  {
+    float: right; /* Выравнивание по правому краю  */ 
+    margin: 17px; /* Отступы вокруг картинки */
+   }

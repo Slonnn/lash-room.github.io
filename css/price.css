@@ -1,0 +1,54 @@
+
+
+/* ///////////////////////////////////////////////////////
+/////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////// */
+
+/* price-main */
+.price-main{
+    background: radial-gradient(ellipse closest-corner at 680px 1200px, #fff, rgb(153, 151, 151));
+    background-size: 1920px;
+    padding: 0;
+}
+.price-block{
+    position: relative;
+    height: 100px;
+}
+.price-money{
+    text-align: center;
+    
+    z-index: 2;
+    margin: 200px;
+}
+.price-money h3{
+    font-size: 2.8em;
+}
+.price-buy .main-word{ 
+    display: inline-block;
+    margin: 30px;
+    padding: 5px;
+    background: rgb(163, 132, 170);
+    font-size:1.5em;
+    text-shadow: 1px 1px 2px rgb(255, 255, 255), 0 0 1em rgb(224, 89, 241);  
+    /* transform: skewY(-5deg); */
+}
+.price-buy p{
+    font-size:1.8em;
+}
+.texnic-img{
+    width: 100%;
+    height: 700px;
+    text-align: center;
+    background: rgb(187, 216, 221);
+    box-shadow: 0px 2px 12px 5px rgb(90, 90, 90);
+    border-bottom: 2px solid rgb(208, 166, 243);
+}
+.texnic-img .price-block{
+    padding: 100px 0 40px 0;    
+}
+.price-block h3{
+    padding-bottom: 50px;
+}
+.price-block p{
+    padding-top: 50px;
+}
